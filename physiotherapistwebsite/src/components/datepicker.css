@@ -1,0 +1,25 @@
+/* .datetime{
+    width: 100%;
+} */
+
+/* .fordatechange{
+    width: 100%;
+} */
+
+/* .fordatechange{
+    width: 100%;
+}
+.datetime{
+    width: 100%;
+} */
+
+
+/* Add or modify this class in datepicker.css */
+.fordatechange {
+    width: 100%; /* Match width to the container or other elements */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+.datetime{
+    width: 100%;
+}
+

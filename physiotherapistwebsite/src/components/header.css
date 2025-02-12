@@ -1,0 +1,135 @@
+*{
+    font-family: "Playfair Display";
+}
+.headerSection{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.headerSection .img1{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.5);
+}
+.headercontainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.headercontainer{
+   position: absolute;
+   top: 100px;
+   left: 400px;
+   color: white;
+}
+.headercontainer h1{
+    font-size: 68px;
+}
+.headercontainer h2,h3{
+    font-size: 50px;
+}
+.headercontainer h2{
+    margin-top: 12px;
+}
+.headercontainer .para1{
+    font-size: 24px;
+    margin-top: 35px;
+}
+.headercontainer .para2{
+    font-size: 24px;
+}
+.btn1{
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(125, 115, 230);
+    color: white;
+}
+.headerImages{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.forhidden{
+    display: none;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .headerSection {
+        height: 100vh; 
+    }
+
+    .headerSection .img1 {
+        width: 1000px;
+        transform: translateX(-386px);
+    }
+
+    .headercontainer {
+        position: absolute; 
+        top: 30%; 
+        left: 20px; 
+        transform: translateY(-50%); 
+        color: white;
+    }
+
+    .headercontainer h1 {
+        font-size: 38px; 
+        margin-top: 50px;
+    }
+
+    .headercontainer h2,
+    .headercontainer h3 {
+        font-size: 24px; 
+    }
+
+    .headercontainer .para1,
+    .headercontainer .para2 {
+        font-size: 14px; 
+        line-height: 2px;
+        
+    }
+
+    .btn1 {
+        width: 100%;
+        height: 45px;
+        font-size: 16px; 
+    }
+
+    .headerImages {
+        display: flex; 
+        gap: 20px; 
+        margin-top: 20px;
+    }
+
+    .headerImages img {
+        width: auto; 
+        height: 40px; 
+        max-width: 100%; 
+    }
+    .forhidden{
+        display: block;
+        margin-top: 40px;
+        width: 100%;
+        
+    }
+    .forhidden button{
+      font-size: 16px;
+      
+    }
+    .btn22{
+        width: 200px;
+    }
+}
+

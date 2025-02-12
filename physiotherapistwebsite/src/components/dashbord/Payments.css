@@ -1,0 +1,102 @@
+/* Payments Page Container */
+.payments-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  /* Section Title */
+  .payments-container h1,
+  .payments-container h2 {
+    color: #3949ab;
+    margin-bottom: 20px;
+  }
+  
+  /* Payment History Table */
+  .payment-history table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .payment-history th,
+  .payment-history td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .payment-history th {
+    background-color: #3949ab;
+    color: white;
+  }
+  
+  .payment-history td {
+    color: #555;
+  }
+  
+  /* Payment Status Colors */
+  .status.success {
+    color: green;
+  }
+  
+  .status.pending {
+    color: orange;
+  }
+  
+  .status.failed {
+    color: red;
+  }
+  
+  /* Add Payment Form */
+  .add-payment form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-payment label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .add-payment input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-payment input:focus {
+    outline: none;
+    border-color: #3949ab;
+  }
+  
+  .add-payment .btn-submit {
+    padding: 10px;
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-payment .btn-submit:hover {
+    background-color: #5c6bc0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .payment-history table {
+      font-size: 14px;
+    }
+  
+    .add-payment form {
+      gap: 10px;
+    }
+  }
+  

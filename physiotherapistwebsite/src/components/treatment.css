@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+.treatmentOuter {
+    width: 100%;
+    margin-top: 1240px;
+}
+
+.treatmentContainer {
+    width: 100%;
+    display: flex;
+}
+
+.treatment1 {
+    width: 50%;
+    height: 912px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.treatment1 h1 {
+    font-size: 55px;
+    text-transform: capitalize;
+    color: #311a75;
+    margin-bottom: 20px;
+}
+
+.treatment1 p {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.treatment2 {
+    width: 50%;
+    height: 912px;
+    background-image: url(''); 
+    background-size: 844px;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position-y: -359px;
+    background-position-x: 44px;
+    display: flex;
+}
+.treatment2Image img{
+    margin-top: 80px;
+}
+.painsection{
+   margin: auto;
+}
+.painsection h1{
+  color: #7352d1;
+  padding-bottom: 30px;
+  padding-left: 16px;
+  border-left: 5px solid white;
+  font-size: 24px;
+}
+.painsection p{
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 16px;
+    border-left: 5px solid white;
+}
+.painsection p span{
+    color: #7352d1;
+}
+.painsection .selected{
+    border-left: 5px solid #7352d1;
+}
+.treatmentOuter{
+    padding-top: 100px;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .treatmentContainer {
+        flex-direction: column; 
+    }
+
+    .treatment1 {
+        width: 100%; 
+        height: auto; 
+        padding: 20px; 
+        text-align: center; 
+    }
+
+    .treatment1 h1 {
+        font-size: 30px; 
+        font-weight: bold;
+        color: #311a75;
+    }
+
+    .treatment1 p {
+        font-size: 16px; 
+        line-height: 2px;
+        margin-top: 20px;
+    }
+
+    .treatment2 {
+        width: 100%;
+        height: auto; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .treatment2Image img {
+        width: 80%; 
+        height: auto; 
+        margin-top: 20px; 
+        display: none;
+    }
+
+    .painsection {
+        width: 90%; 
+        margin: auto; 
+    }
+
+    .painsection h1 {
+        font-size: 28px; 
+    }
+    .painsection p {
+        font-size: 18px; 
+    }
+    .treatment2{
+        background-image: none;
+    }
+    .treatmentOuter{
+        padding-top: 100px;
+    }
+}
+
+
+

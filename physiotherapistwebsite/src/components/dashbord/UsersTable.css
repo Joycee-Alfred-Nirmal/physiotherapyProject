@@ -1,0 +1,24 @@
+/* src/components/dashbord/UsersTable.css */
+
+.users-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .users-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .users-table th,
+  .users-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .users-table th {
+    background-color: #1d45bc;
+    color: white;
+  }
+  

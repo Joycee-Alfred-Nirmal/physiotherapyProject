@@ -1,0 +1,130 @@
+.maincontainer{
+    width: 100%;
+    background-color:#f6f6f9;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    min-height: 690px;
+    margin-top: 80px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.cardContainer{
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    box-shadow: 0 0 20px #c9f0f9;
+    border-radius: 20px;
+    background-color: white;
+    margin-top:40px ;
+}
+.cardContainer img{
+    width: 270px;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+.cardContainer .drname{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.cardContainer .designation{
+    font-size: 20px;
+}
+.cardContainer p{
+  margin-top: 10px;
+  color: rgb(88, 77, 77);
+  padding-left: 20px;
+}
+.cardOutercontainer{
+    padding: 20px;
+}
+.cardContainer .drbtnmain{
+    padding-left: 20px;
+    display: flex;
+    gap: 12px;
+}
+
+.cardContainer .drbtn{
+    padding: 4px;
+    color: #d34a72;;
+    background: rgba(255, 102, 142, .2);
+    border: none;
+    border-radius: 5px;
+    
+}
+.cardContainer .designation{
+    padding-left: 20px;
+}
+.knowMorebtnMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.knowMorebtn{
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight:550;
+    margin-top: 20px;
+}
+.cardOutercontainer{
+    display: flex;
+}
+.meetHead{
+    margin: auto;
+    font-size: 30px;
+    color: #2c3e50;;
+}
+
+
+.carouselContainer {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardOutercontainer {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carouselButton {
+    background-color: #311a75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+

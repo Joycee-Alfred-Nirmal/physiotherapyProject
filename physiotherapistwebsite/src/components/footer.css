@@ -1,0 +1,139 @@
+.footerOuter{
+    width: 100%;
+    background: #2e2e2e;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    font-size: 16px;
+}
+.footerInner{
+    display: flex;
+    justify-content: center;
+}
+.footerContainer{
+ width: 1200px;
+}
+.footerHeadImageMain{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footerHeadImageMain img{
+    width: 60px;  
+    display: flex;
+    margin: auto;
+}
+.footercontainerbox{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.footercontainerbox .footerbox1,
+.footercontainerbox .footerbox2,
+.footercontainerbox .footerbox3{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+.footercontainerbox .footerbox2,
+.footercontainerbox .footerbox3{
+    display: flex;
+    align-items: center;
+}
+.footerlistouter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footerlistinner{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    list-style: none;
+    font-size: 20px;
+}
+.footericonouter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footericoninner{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.footericoninner img{
+   width: 33px;
+   
+}
+.linkedin{
+    background-color: white;
+    border-radius: 50%;
+}
+.rightscontainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+    opacity: .3;
+}
+
+
+
+@media (max-width: 768px) {
+    .footerContainer {
+        width: 90%; 
+        padding: 0 10px;
+    }
+
+    .footerHeadImageMain img {
+        width: 40px; 
+    }
+
+    .footercontainerbox {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footercontainerbox .footerbox1,
+    .footercontainerbox .footerbox2,
+    .footercontainerbox .footerbox3 {
+        width: 100%; 
+        text-align: left; 
+        padding: 15px;
+        border: 1px solid white; 
+    }
+
+    .footerlistouter {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footerlistinner {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+        font-size: 18px;
+    }
+
+    .footericonouter {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footericoninner {
+        width: 150px; 
+        gap: 15px;
+    }
+
+    .rightscontainer {
+        font-size: 14px; 
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,48 @@
+.imagess img{
+    width: 310px;
+    border-radius: 20px;
+}
+.cont{
+    width: 87%;
+}
+.index1{
+    z-index: 1;
+
+}
+.index2{
+ z-index: 1;
+ transform: translateX(-20px);
+}
+
+.clientHead h1{
+    font-size: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: 700;
+    color: #311a75;
+    padding-bottom: 40px;
+}
+.clientMainBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.clientbtn{
+    width: 180px;
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    background-color: #7352d1;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 768px){
+    .clientHead h1 {
+        font-size: 28px; 
+        line-height: 32px; 
+        padding-bottom: 20px; 
+    }
+}

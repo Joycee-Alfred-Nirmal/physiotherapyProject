@@ -1,0 +1,52 @@
+[
+    {
+        "image":"femaleDummy.jpg",
+        "drname" : "DR.Nikheel pansare",
+        "designation":"Orthopedic",
+        "degree":"M.Sc(Orthopedic)",
+        "Experience":"18 years of Experience",
+        "pain1":"knee pain",
+        "pain2":"Hip pain",
+        "pain3":"sports surgeries"
+    },
+    {
+        "image":"femaleDummy.jpg",
+        "drname" : "DR.Gargi Neha",
+        "designation":"Physiotherapist",
+        "degree":"MPTh(Ortho)",
+        "Experience":"14 years of Experience",
+        "pain1":"Shoulder pain",
+        "pain2":"back pain",
+        "pain3":"knee surgeries"
+    },  
+    {
+        "image":"femaleDummy.jpg",
+        "drname" : "DR.Yogesh Patel",
+        "designation":"Orthopedic",
+        "degree":"M.Sc(Orthopedic)",
+        "Experience":"19 years of Experience",
+        "pain1":"Shoulder pain",
+        "pain2":"Hip pain",
+        "pain3":"knee surgeries"
+    },
+    {
+        "image":"femaleDummy.jpg",
+        "drname" : "DR.Poonam Hooda",
+        "designation":"Orthopedic",
+        "degree":"M.Sc(Orthopedic)",
+        "Experience":"19 years of Experience",
+        "pain1":"Shoulder pain",
+        "pain2":"Hip pain",
+        "pain3":"knee surgeries"
+    }, 
+    {
+        "image":"femaleDummy.jpg",
+        "drname" : "DR.Aparna Premraj",
+        "designation":"Physiotherapist",
+        "degree":"M.Sc(Orthopedic)",
+        "Experience":"7 years of Experience",
+        "pain1":"Shoulder pain",
+        "pain2":"Hip pain",
+        "pain3":"knee surgeries"
+    }
+]

@@ -1,0 +1,10 @@
+.unauthorized-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .unauthorized-container a {
+    text-decoration: none;
+    color: blue;
+  }
+  

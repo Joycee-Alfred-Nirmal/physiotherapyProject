@@ -1,0 +1,170 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  width: 90%;
+  max-width: 1200px; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.ulList {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 24px;
+  color: #47347c;
+  cursor: pointer;
+  align-items: center;
+  font-size: 18px;
+  margin-left: auto; 
+  }
+
+  
+
+.btn22 {
+  width: 160px;
+  height: 65px;
+  border: none;
+  border-radius: 30px;
+  background-color: #7352d1;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 80px;
+}
+
+.logomain {
+  display: flex;
+  align-items: center;
+}
+
+.logomain p {
+  font-size: 24px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #0d045a;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: #47347c;
+  align-items: center;
+  margin-left: 20px;
+}
+
+
+@media (max-width: 768px) {
+ 
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logomain {
+    display: flex;
+    align-items: center;
+  }
+
+  .logomain p {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #0d045a;
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    font-size: 30px;
+    color: #47347c;
+    margin-right:8px ;
+  }
+
+  
+  .ulList {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+  }
+
+  
+  .navbarMain.open .ulList {
+    display: flex;
+  }
+}
+@media (max-width: 360px) and (min-width: 340px) {
+  .logomain p {
+    font-size: 16px; 
+    margin-left: 5px;
+  }
+
+  .ulList {
+    gap: 10px; 
+  }
+
+  .btn22 {
+    width: 140px; 
+    height: 35px; 
+    font-size: 13px; 
+  }
+
+  .logo {
+    width: 60px;
+  }
+  
+  .navbar {
+    padding: 5px; 
+  }
+}
+
+
+.ulList .navlist{
+  background-color: #7352d1;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  border-radius: 20px;
+  
+}
+
+.ulList .activelist{
+  color: white;
+  text-decoration: none;
+}
+

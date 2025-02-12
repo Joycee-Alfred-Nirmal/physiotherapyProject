@@ -1,0 +1,35 @@
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+  }
+  /* .container {
+    padding-top: 20px !important; /* Reduces top padding 
+    padding-bottom: 20px !important; /* Reduces bottom padding
+  }
+  */
+
+ 
+  @media (min-width: 769px){
+    .card{
+        min-height: 200px;
+    }
+  }
+  

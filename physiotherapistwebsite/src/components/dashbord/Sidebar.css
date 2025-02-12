@@ -1,0 +1,114 @@
+nav{
+  border-start-start-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.sidebar {
+    height: 100vh;
+    color: white;
+    padding: 20px;
+   
+  }
+  
+  .sidebar-header h2 {
+    text-align: center;
+    color: #1d45bc;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #352faf;
+  }
+  
+  /* .hamburger {
+    display: none; 
+    font-size: 30px; 
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999; 
+  } */
+
+  @media (max-width: 768px) {
+  
+    .hamburger {
+      /* display: block; */
+    }
+  
+  
+    .sidebar ul {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    
+    .sidebar.open ul {
+      display: flex;
+    }
+  
+   
+    .sidebar ul li {
+      margin: 10px 0;
+    }
+  
+    .sidebar ul li a {
+      font-size: 20px;
+    }
+  }
+  
+ 
+  .sidebar ul li a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #0a9396;
+    color: white; 
+  }
+  .sidebar ul li a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #1d45bc;
+    color: white; 
+  }
+    
+
+
+ 

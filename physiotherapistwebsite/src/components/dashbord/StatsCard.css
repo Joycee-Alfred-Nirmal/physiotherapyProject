@@ -1,0 +1,21 @@
+/* src/components/dashbord/StatsCard.css */
+
+.stats-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .stats-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .stats-card p {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
