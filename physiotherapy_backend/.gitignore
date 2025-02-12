@@ -1,0 +1,11 @@
+# Ignore node_modules and environment files
+node_modules
+.env
+.DS_Store
+
+# Ignore frontend build files
+/physiotherapistwebsite/node_modules
+/physiotherapistwebsite/build
+
+# Ignore backend dependencies
+/physiotherapy_backend/node_modules
