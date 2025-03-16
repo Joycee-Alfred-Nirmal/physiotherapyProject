@@ -37,7 +37,7 @@ function AdminDashboard() {
         setIsLoading(false); // ✅ Stop loading once role is verified
 
         // Fetch users data
-        const usersResponse = await axios.get('http://localhost:5000/api/auth/user', {
+        const usersResponse = await axios.get('http://localhost:5000/api/auth/users', {
           headers: { Authorization: `Bearer ${token}` },
         });
         setUsers(usersResponse.data);

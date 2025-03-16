@@ -109,10 +109,11 @@ app.post("/api/auth/login", async (req, res) => {
 
     // Ensure role is included in the JWT token
     const token = jwt.sign(
-      { id: user._id, role: user.role }, // 🔥 Make sure role is included
+      { id: user._id, role: user.role , name: user.name }, // 🔥 Make sure role is included
       process.env.JWT_SECRET,
-      { expiresIn: "1h" }
+      { expiresIn: "3h" }
     );
+    console.log('user details are listed' , user);
 
     res.json({ token, role: user.role });
   } catch (error) {

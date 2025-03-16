@@ -28,7 +28,10 @@ const verifyAdmin = async (req, res, next) => {
     if (!req.user) {
       return res.status(403).json({ message: 'Forbidden: No user found' });
     }
-//    const user = await User.findById(req.user._id); // Fetch user from DB
+  const user = await User.findById(req.user.id); // Fetch user from DB
+  console.log("admin details: " , user);
+  console.log(" admin user id verify :" , req.user.id);
+
     if (!user || user.role !== 'admin') {
       return res.status(403).json({ message: 'Forbidden: Admin access required' });
     }

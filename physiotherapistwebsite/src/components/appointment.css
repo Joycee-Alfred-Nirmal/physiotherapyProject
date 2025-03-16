@@ -1,6 +1,6 @@
 .appointmentouter {
   width: 100%;
-  margin-top: 650px;
+  margin-top: 750px;
 }
 
 .appointmentinner {
@@ -73,7 +73,7 @@
 .appointmentForm {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 3px;
 }
 
 .appointmentForm input,

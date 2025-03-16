@@ -41,6 +41,7 @@ const login = async (req, res) => {
 
     // Find the user by email
     const user = await User.findOne({ email });
+    console.log("user details 1" , user);
     if (!user) {
       return res.status(400).json({ message: 'Invalid email or password' });
     }
@@ -58,6 +59,8 @@ const login = async (req, res) => {
     { id: user._id ,  name: user.name ,role: user.role}, '060dd81319804aa8ce0a9b98417aacbc9a6a3a22ef510f3a50042f625d297154b0ec168319cc73ed708e7159c410a86ba9d702ffc3136937c90e5883cd4a177c',
      { expiresIn: '3h' });
 
+     console.log(" user details", user);
+
     // Send response with the token
     return res.status(200).json({
       message: 'Login successful',
@@ -68,6 +71,7 @@ const login = async (req, res) => {
           email: user.email,
           role: user.role
         }
+
     });
   } catch (error) {
     console.error(error);
